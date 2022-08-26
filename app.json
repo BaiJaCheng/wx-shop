@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "融职教育商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "selectedColor": "#fd4328",
+      "list": [
+          {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "assets/icon/h.png",
+          "selectedIconPath": "assets/icon/ha.png"
+      }, {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/icon/g.png",
+        "selectedIconPath": "assets/icon/ga.png"
+    }, {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "assets/icon/c.png",
+        "selectedIconPath": "assets/icon/ca.png"
+    }, {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/icon/m.png",
+        "selectedIconPath": "assets/icon/ma.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
